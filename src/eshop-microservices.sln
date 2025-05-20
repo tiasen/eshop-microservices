@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4BAB08E0-2B27-4EA1-9F09-CA7FFFCE94E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{00C39824-484D-4CFA-B7F0-67C182CB39B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{E91EE084-FA06-4E6E-98E3-7F67CA53545F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{7A9D6CAC-BFFB-4BBF-A806-54DA71B8BE1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{BE825D41-9735-4348-B43E-F3BA3F132D20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F98E6FF4-EA81-430E-9B09-21FF1167DDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98E6FF4-EA81-430E-9B09-21FF1167DDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98E6FF4-EA81-430E-9B09-21FF1167DDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98E6FF4-EA81-430E-9B09-21FF1167DDDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E91EE084-FA06-4E6E-98E3-7F67CA53545F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E91EE084-FA06-4E6E-98E3-7F67CA53545F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E91EE084-FA06-4E6E-98E3-7F67CA53545F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E91EE084-FA06-4E6E-98E3-7F67CA53545F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE825D41-9735-4348-B43E-F3BA3F132D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE825D41-9735-4348-B43E-F3BA3F132D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE825D41-9735-4348-B43E-F3BA3F132D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE825D41-9735-4348-B43E-F3BA3F132D20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00C39824-484D-4CFA-B7F0-67C182CB39B1} = {4BAB08E0-2B27-4EA1-9F09-CA7FFFCE94E6}
+		{E91EE084-FA06-4E6E-98E3-7F67CA53545F} = {00C39824-484D-4CFA-B7F0-67C182CB39B1}
+		{BE825D41-9735-4348-B43E-F3BA3F132D20} = {7A9D6CAC-BFFB-4BBF-A806-54DA71B8BE1E}
+	EndGlobalSection
+EndGlobal
